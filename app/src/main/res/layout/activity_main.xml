@@ -1,0 +1,215 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#F6F6F6"
+    tools:context=".MainActivity">
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="327dp"
+        android:layout_height="48dp"
+        android:text="Add New Card"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="62dp"
+        tools:layout_editor_absoluteY="659dp" />
+
+    <androidx.gridlayout.widget.GridLayout
+        android:layout_width="396dp"
+        android:layout_height="75dp"
+        tools:layout_editor_absoluteX="27dp"
+        tools:layout_editor_absoluteY="441dp"
+        tools:ignore="MissingConstraints">
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="176dp"
+            android:layout_height="38dp"
+            android:text="Exp Date"
+            app:layout_column="0"
+            app:layout_row="0" />
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="142dp"
+            android:layout_height="38dp"
+            android:text="CVV"
+            app:layout_column="2"
+            app:layout_row="0" />
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:layout_width="162dp"
+            android:layout_height="wrap_content"
+            app:layout_column="0"
+            app:layout_row="1" />
+
+        <TextView
+            android:id="@+id/textView3"
+            android:layout_width="174dp"
+            android:layout_height="30dp"
+            android:background="@drawable/rounded_corner1"
+            android:text="Your Exp Card Date"
+            app:layout_column="0"
+            app:layout_row="3" />
+
+        <TextView
+            android:id="@+id/textView4"
+            android:layout_width="189dp"
+            android:layout_height="30dp"
+            android:background="@drawable/rounded_corner1"
+            android:text="Your Card CVV"
+            app:layout_column="2"
+            app:layout_row="3" />
+    </androidx.gridlayout.widget.GridLayout>
+
+    <androidx.gridlayout.widget.GridLayout
+        android:layout_width="404dp"
+        android:layout_height="146dp"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="27dp"
+        tools:layout_editor_absoluteY="283dp">
+
+        <TextView
+            android:id="@+id/textView5"
+            android:layout_width="267dp"
+            android:layout_height="39dp"
+            android:text="Name on card"
+            app:layout_column="0"
+            app:layout_row="0" />
+
+        <TextView
+            android:id="@+id/textView6"
+            android:layout_width="401dp"
+            android:layout_height="36dp"
+            android:background="@drawable/rounded_corner1"
+            android:text="       Your Card Nimber"
+            app:layout_column="0"
+            app:layout_row="3" />
+
+        <TextView
+            android:id="@+id/textView7"
+            android:layout_width="269dp"
+            android:layout_height="36dp"
+            android:text="Card Number"
+            android:textAlignment="textStart"
+            app:layout_column="0"
+            app:layout_row="2" />
+
+        <TextView
+            android:id="@+id/textView8"
+            android:layout_width="match_parent"
+            android:layout_height="33dp"
+            android:background="@drawable/rounded_corner1"
+            android:text="       Your Name"
+            app:layout_column="0"
+            app:layout_row="1" />
+    </androidx.gridlayout.widget.GridLayout>
+
+    <TextView
+        android:id="@+id/textView21"
+        android:layout_width="399dp"
+        android:layout_height="168dp"
+        android:background="#6750A2"
+        android:text="TextView"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="21dp"
+        tools:layout_editor_absoluteY="64dp" />
+
+    <androidx.gridlayout.widget.GridLayout
+        android:layout_width="343dp"
+        android:layout_height="57dp"
+        tools:layout_editor_absoluteX="55dp"
+        tools:layout_editor_absoluteY="165dp"
+        tools:ignore="MissingConstraints">
+
+        <TextView
+            android:id="@+id/textView26"
+            android:layout_width="131dp"
+            android:layout_height="wrap_content"
+            android:text="Your Balance"
+            android:textColor="#FFFFFF"
+            app:layout_column="0"
+            app:layout_row="0" />
+
+        <TextView
+            android:id="@+id/textView28"
+            android:layout_width="93dp"
+            android:layout_height="wrap_content"
+            android:text="  $ 0"
+            android:textColor="#FFFFFF"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            app:layout_column="0"
+            app:layout_row="2" />
+
+        <TextView
+            android:id="@+id/textView29"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Visa"
+            android:textAlignment="textEnd"
+            android:textColor="#FFFFFF"
+            app:layout_column="2"
+            app:layout_row="2" />
+    </androidx.gridlayout.widget.GridLayout>
+
+    <androidx.gridlayout.widget.GridLayout
+        android:layout_width="344dp"
+        android:layout_height="62dp"
+        tools:layout_editor_absoluteX="53dp"
+        tools:layout_editor_absoluteY="78dp"
+        tools:ignore="MissingConstraints">
+
+        <TextView
+            android:id="@+id/textView22"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Your Name"
+            android:textColor="#FFFFFF"
+            app:layout_column="0"
+            app:layout_row="0" />
+
+        <TextView
+            android:id="@+id/textView23"
+            android:layout_width="105dp"
+            android:layout_height="wrap_content"
+            android:text="A Debit Card"
+            android:textAlignment="viewEnd"
+            android:textColor="#FFFFFF"
+            app:layout_column="2"
+            app:layout_row="0" />
+
+        <TextView
+            android:id="@+id/textView24"
+            android:layout_width="156dp"
+            android:layout_height="wrap_content"
+            android:text="XXXX XXXX XXXX XXXX"
+            android:textColor="#FFFFFF"
+            app:layout_column="0"
+            app:layout_row="2" />
+
+        <TextView
+            android:id="@+id/textView25"
+            android:layout_width="107dp"
+            android:layout_height="wrap_content"
+            android:text="XX /XX"
+            android:textAlignment="viewEnd"
+            android:textColor="#FFFFFF"
+            app:layout_column="2"
+            app:layout_row="2" />
+    </androidx.gridlayout.widget.GridLayout>
+
+    <TextView
+        android:id="@+id/textView30"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Add New Card"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        tools:layout_editor_absoluteX="161dp"
+        tools:layout_editor_absoluteY="16dp"
+        tools:ignore="MissingConstraints" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
